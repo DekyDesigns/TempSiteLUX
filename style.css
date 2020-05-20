@@ -1,0 +1,179 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+#comingSoon {
+    text-align: center;
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15%;
+    bottom: 50%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 270px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#logo {
+    width: 100px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
+
+  
+
+
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 45%;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+ul {
+    padding: 0;
+}
+
+.footer-social-icons {
+    display: block;
+    margin: 0 auto;
+}
+
+.social-icon {
+    color: white;
+}
+
+ul.social-icons {
+    margin-top: 0;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.fa-facebook {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-envelope {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    
+}
+.fa-envelope:hover {
+    background-color: #00dded;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+ 
+}
+.fa-linkedin:hover {
+    background-color: #0e76a8;
+}
+.fa-phone {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+  
+}
+.fa-phone:hover {
+    background-color: #096fc2;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+.fa-instagram:hover {
+    background-color: #3f729b
+}
+
+
+
+@media only screen and (max-height: 450px) {
+    #logo {
+        width: 60px;
+    }
+    
+    h1 {
+        font-size: 30px;
+        
+    }
+    
+    p {
+        font-size: 20px;
+    }
+
+    footer {
+        height: 25%;
+    }
+  }
+
+
+  @media only screen and (max-width: 420px) {
+    footer {
+        height: 35%;
+    }
+    }
